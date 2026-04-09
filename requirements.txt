@@ -1,0 +1,29 @@
+# Core ML stack
+torch              # Install via: pip install torch --index-url https://download.pytorch.org/whl/cu126
+torchvision        # Same as above
+transformers>=4.40.0
+datasets>=2.18.0
+peft>=0.10.0
+trl>=0.8.0
+accelerate>=0.28.0
+
+# Quantisation (4-bit QLoRA)
+bitsandbytes>=0.43.0       # 0.43+ adds native Windows support
+
+# Evaluation metrics
+evaluate>=0.4.0
+rouge_score                 # backend for evaluate["rouge"]
+sacrebleu                   # backend for evaluate["bleu"]
+bert_score                  # BERTScore evaluation
+sentencepiece               # tokenizer support
+
+# Data & analysis
+pandas>=2.0
+scikit-learn
+
+# Report generation
+matplotlib>=3.8
+numpy>=1.26
+
+# Utilities
+tqdm

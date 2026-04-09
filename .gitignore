@@ -1,0 +1,19 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.env
+
+# LLM Project Data & Weights (DO NOT PUSH TO GITHUB)
+data/
+outputs/*
+!outputs/adapter/
+outputs/adapter/checkpoint-*/
+offload/
+logs/
