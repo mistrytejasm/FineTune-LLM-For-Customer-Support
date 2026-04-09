@@ -1,0 +1,41 @@
+{
+  "eval_samples": 50,
+  "base_model": {
+    "rouge1": 0.3485,
+    "rouge2": 0.1035,
+    "rougeL": 0.2152,
+    "rougeLsum": 0.2234,
+    "bleu": 0.0536,
+    "bertscore_f1": "N/A",
+    "exact_match": 0.0,
+    "approx_perplexity": 4.8,
+    "avg_pred_length_words": 58.2,
+    "avg_ref_length_words": 84.5,
+    "avg_generation_time_sec": 7.506
+  },
+  "fine_tuned": {
+    "rouge1": 0.5034,
+    "rouge2": 0.2358,
+    "rougeL": 0.3417,
+    "rougeLsum": 0.3506,
+    "bleu": 0.1984,
+    "bertscore_f1": "N/A",
+    "exact_match": 0.0,
+    "approx_perplexity": 2.97,
+    "avg_pred_length_words": 77.2,
+    "avg_ref_length_words": 84.5,
+    "avg_generation_time_sec": 11.971
+  },
+  "improvement": {
+    "rouge1": 0.1549,
+    "rouge2": 0.1323,
+    "rougeL": 0.1265,
+    "rougeLsum": 0.1272,
+    "bleu": 0.1448,
+    "bertscore_f1": "N/A",
+    "exact_match": 0.0,
+    "approx_perplexity": -1.83,
+    "avg_pred_length_words": 19.0,
+    "avg_ref_length_words": 0.0
+  }
+}

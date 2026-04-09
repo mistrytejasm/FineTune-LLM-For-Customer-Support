@@ -12,7 +12,6 @@ wheels/
 
 # LLM Project Data & Weights (DO NOT PUSH TO GITHUB)
 data/
-outputs/*
 !outputs/adapter/
 outputs/adapter/checkpoint-*/
 offload/
